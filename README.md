@@ -27,7 +27,7 @@ python -c "from huggingface_hub import snapshot_download; snapshot_download(repo
 
 These commands create `data/benchmark/` with the pair directories and annotations, and `data/splits/` with the released train/test splits. The benchmark pairs have `A.jpg` and `B.jpg`; `public_eval_annotations.json` provides labels and evaluation groupings.
 
-**Additional benchmarks.** Automatic Hypersim (7,597 pairs) and DL3DV (39,019 pairs) are being prepared for release. **TODO: add Om’s email address here so readers can request access.**
+**Additional benchmarks.** For the automatic Hypersim (7,597 pairs) and DL3DV (39,019 pairs) benchmarks, please email the authors for access.
 
 ## Evaluation
 
