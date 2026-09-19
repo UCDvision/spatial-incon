@@ -1,0 +1,7 @@
+# Environment used for the bundled Qwen evaluation smoke test.
+torch==2.1.2
+torchvision==0.16.2
+transformers==4.40.2
+accelerate==0.30.1
+pillow==10.2.0
+tqdm==4.65.0

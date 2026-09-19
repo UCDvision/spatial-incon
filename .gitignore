@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+outputs/
+
+# Large release artifacts are hosted on Hugging Face datasets.
+data/benchmark/
+data/splits/
+results/

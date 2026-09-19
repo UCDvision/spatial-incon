@@ -1,0 +1,5 @@
+# Additional dependencies needed by generation and control scripts.
+-r requirements-eval.txt
+numpy==1.26.4
+h5py==3.16.0
+opencv-python==4.9.0.80

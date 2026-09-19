@@ -1,0 +1,35 @@
+{
+  "release_name": "Spatial Inconsistency Benchmark",
+  "paper": "arXiv:2604.00799",
+  "benchmark_pairs": 615,
+  "benchmark_images": 1230,
+  "benchmark_format": "one labeled A.jpg and one edited B.jpg per pair",
+  "public_annotation_version": 2,
+  "scene_disjoint_split": {
+    "train_pairs": 488,
+    "test_pairs": 127,
+    "train_scenes": 218,
+    "test_scenes": 55,
+    "seed": 42
+  },
+  "controls": {
+    "self_paste_variants": [
+      "k_1",
+      "k_3",
+      "k_5",
+      "k_10",
+      "k_all"
+    ],
+    "bbox_expansion_variants": [
+      "frac_0",
+      "frac_0p1",
+      "frac_0p25",
+      "frac_0p5",
+      "frac_0p75",
+      "frac_1"
+    ]
+  },
+  "validation_command": "python scripts/verify_release.py",
+  "license": "MIT",
+  "venue": "COLM 2026 (accepted)"
+}
