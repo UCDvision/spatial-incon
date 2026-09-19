@@ -1,6 +1,6 @@
 # Multimodal Language Models Cannot Spot Spatial Inconsistencies
 
-[Paper](https://arxiv.org/abs/2604.00799) · Accepted to COLM 2026 · [Curated benchmark](https://huggingface.co/datasets/reachomk/spatial-inconsistencies-hypersim-curated-615) · [Results](https://huggingface.co/datasets/reachomk/spatial-inconsistencies-results)
+[Paper](https://arxiv.org/abs/2604.00799) · Accepted to COLM 2026 · [Curated benchmark](https://huggingface.co/datasets/reachomk/spatial-inconsistencies-hypersim-curated-615) · [Automatic Hypersim set](https://huggingface.co/datasets/reachomk/spatial-inconsistencies-hypersim-auto-7597) · [DL3DV set](https://huggingface.co/datasets/reachomk/spatial-inconsistencies-dl3dv-39019) · [Results](https://huggingface.co/datasets/reachomk/spatial-inconsistencies-results)
 
 This repository contains the code and metadata for evaluating multimodal language models on spatial inconsistency detection. Given two views of the same static scene, the task is to identify the labeled object whose position is inconsistent with camera motion.
 
@@ -27,7 +27,7 @@ python -c "from huggingface_hub import snapshot_download; snapshot_download(repo
 
 These commands create `data/benchmark/` with the pair directories and annotations, and `data/splits/` with the released train/test splits. The benchmark pairs have `A.jpg` and `B.jpg`; `public_eval_annotations.json` provides labels and evaluation groupings.
 
-The automatic Hypersim and DL3DV datasets are maintained as separate private Hugging Face repositories.
+Additional released benchmarks: [automatic Hypersim (7,597 pairs)](https://huggingface.co/datasets/reachomk/spatial-inconsistencies-hypersim-auto-7597) and [DL3DV (39,019 pairs)](https://huggingface.co/datasets/reachomk/spatial-inconsistencies-dl3dv-39019).
 
 ## Evaluation
 
